@@ -18,20 +18,26 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- **Bonus**: See the chat interface animate on the initial load
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Mobile
+
+![desktop design](./screenshots/mobile.jpeg)
+
+Desktop
+
+![desktop design](./screenshots/desktop.jpeg)
 
 ## My process
 
 ### Built with
 
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
-- Mobile-first workflow
+- Icons from [Font Awesome](https://fontawesome.com/)
 
 ## Author
 
-- Youtube - [JGame&Code](https://www.twitter.com/yourusername)
+- Youtube - [JGame&Code](https://www.youtube.com/channel/UC-U-_y5Vz01kKodj78AwmEQ)
