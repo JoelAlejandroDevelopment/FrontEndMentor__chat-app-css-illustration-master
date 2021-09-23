@@ -190,13 +190,14 @@ i
   margin-right: 10px;
 }
 
-
 .chat
 {
   height: 580px;
   background-color: hsl(270, 20%, 96%);
   border-radius: 0 0 20px 20px;
   padding-top: 5px;
+
+  position: relative;
 }
 
 .message
@@ -288,6 +289,59 @@ i
   width: 100%;
   line-height: 20px;
   color: hsl(270, 7%, 64%);
+}
+
+.send
+{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  background-color: white;
+  border-radius: 17.5px;
+  
+  height: 40px;
+  width: 260px;
+}
+
+.send__back
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.send__input
+{
+  width: 200px;
+  border-radius: 17.5px;
+  border: none;
+}
+.send__input:focus-visible
+{
+  outline: none;
+}
+
+.icon__container
+{
+  background-color: hsl(271, 36%, 24%);
+  width: 35px;
+  height: 35px;
+
+  border-radius: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send__icon
+{
+  font-size: 25px;
 }
 
 /*  */
